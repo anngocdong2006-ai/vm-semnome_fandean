@@ -9,7 +9,7 @@ jobs:
       max-parallel: 1
       matrix:
         instance_id: [1]
-    runs-on: windows-2025
+    runs-on: windows-latest
     timeout-minutes: 395
     steps:
       - uses: actions/checkout@v4
